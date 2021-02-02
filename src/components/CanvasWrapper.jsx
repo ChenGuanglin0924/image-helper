@@ -1,6 +1,7 @@
-import { useContext, useRef } from 'react';
+import { useContext, useEffect, useRef } from 'react';
 import useMount from '../hooks/useMount';
 import HelperContext from '../utils/HelperContext';
+import UploadPanel from './canvas-wrapper/UploadPanel';
 
 import '../styles/CanvasWrapper.css';
 
@@ -18,7 +19,8 @@ const CanvasWrapper = () => {
 
     return (
         <div className="ih-canvas-wrapper">
-            <canvas ref={canvas}></canvas>
+            <canvas ref={canvas} />
+            <UploadPanel />
         </div>
     );
 };

@@ -1,15 +1,20 @@
 body {
-    margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
         'Droid Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 .main {
-    height: 200px;
+    height: 100vh;
+    padding: 24px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.main .ant-row {
-    height: 100%;
+.main .ih-canvas-wrapper {
+    width: 70%;
+}
+
+.main .ih-tool-wrapper {
+    width: 30%;
+    margin-left: 8px;
 }

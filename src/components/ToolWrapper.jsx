@@ -1,4 +1,4 @@
-import '../styles/CanvasWrapper.css';
+import '../styles/ToolWrapper.css';
 
 const ToolWrapper = () => {
     return <div className="ih-tool-wrapper"></div>;
